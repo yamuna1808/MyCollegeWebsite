@@ -1,0 +1,298 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.header {
+    background-color: red;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.header img {
+    height: 40px;
+    width: 170px;
+    margin: 10px 15px;
+    vertical-align: middle;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+    font-size: 20px;
+    background-color: red;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+}
+
+.menu a:hover {
+    color: gray;
+}
+
+.background {
+    background-image: url('https://images.shiksha.com/mediadata/images/1552903649phprRIXMa.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 100px; /* Add space to account for the header */
+}
+
+.container1 {
+    background-size: cover;
+    background-position: center;
+    height: 700px;
+    width: 100%;
+    margin: 50px;
+}
+
+.boxx {
+    height: 400px;
+    width: 700px;
+    background-color: rgba(0,0,0,0.3);
+    align-items: center;
+    margin-top: 150px;
+    margin-left: 100px;
+    margin-bottom: 100px;
+}
+
+.boxx h1 {
+    color: white;
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+.boxx p {
+    color: white;
+    font-size: 17px;
+}
+
+.apply {
+    height: 50px;
+    width: 150px;
+    background-color: red;
+    font-size: 20px;
+    color: white;
+    border-radius: 20px;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+.apply:hover{
+    background-color: darkred;
+}
+
+.container2 {
+    height: 300px;
+    width: 100%;
+    
+}
+
+.container2 img {
+    margin-left: 300px;
+    padding: 20px;
+}
+
+.container2 h1 {
+    margin-left: 900px;
+    margin-top: -220px;
+    background-color: red;
+    font-size: 25px;
+    font-weight: bold;
+    margin-right: 700px;
+    height: 50px;
+    width: 400px;
+    text-align: center;
+    padding: 5px;
+    color: white;
+}
+
+.boxes img {
+    margin-left: 900px;
+    margin-bottom: 40px;
+    border: 10px;
+    padding: 10px;
+}
+
+.container3 {
+    background-color: orangered;
+    height: 400px;
+    width: 100%;
+}
+
+.container3 h1 {
+    color: white;
+    font-size: 40px;
+    margin-left: 400px;
+    padding: 10px;
+    font-weight: bolder;
+}
+
+
+.container3 p {
+    margin-left: 150px;
+    color: white;
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+.container3 img {
+    height: 100px;
+    width: 185px;
+    margin-top: 80px;
+}
+.container4 {
+    height: 550px;
+    width: 100%;
+    background-image: url('https://www.iesonline.co.in/colleges-image/sambhram-institute-of-technology.jpg');
+    background-size: cover;
+}
+
+.container4 h1 {
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 100px;
+}
+
+.container4 p {
+    color: white;
+    font-size: 20px;
+    margin-left: 100px;
+    text-align: center;
+}
+
+.container4 .enquiry {
+    font-size: 20px;
+    color: white;
+    border-radius: 20px;
+    background-color: red;
+    margin-left: 100px;
+    border: 20px solid red;
+}
+
+.enquiry:hover {
+    color: black;
+}
+
+.iframe {
+    margin-left: 900px;
+}
+
+.container5 {
+    height: 600px;
+    width: 100%;
+}
+
+.container5 h1 {
+    color: maroon;
+    font-size: 50px;
+    margin-left: 50px;
+    padding: 10px;
+}
+
+.boxess {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+
+.box1, .box2, .box3 {
+    flex-basis: 33.33%;
+    border: 2px solid #ccc;
+    padding: 20px;
+    background-color: #f9f9f9;
+    margin: 10px;
+    border-radius: 10px; /* Optional: adds rounded corners */
+}
+
+.box1 img, .box2 img, .box3 img {
+    width: 400px;
+    height: 300px;
+    margin-top: 10px;
+}
+
+.box1 h5, .box2 h5, .box3 h5 {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.box1 p, .box2 p, .box3 p {
+    font-size: 18px;
+    text-align: center;
+}
+
+.box1 .click, .box2 .click, .box3 .images {
+    color: white;
+    background-color: red;
+    border-radius: 20px;
+    padding: 10px 20px;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.box1 .click:hover, .box2 .click:hover, .box3 .images:hover {
+    background-color: darkred;
+}
+
+.footer {
+    height: 300px; /* Adjusted height for more space */
+    padding: 20px;
+    background-color: red; /* Assuming you want a background color */
+    color: white; /* Text color */
+    text-align: center; /* Center align text */
+    position: relative; /* Ensure proper positioning if needed */
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+
+.footer p {
+    background-color: red;
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+    color: white;
+}
+.footer p:hover{
+    color: grey;
+}
+
+.footer a img {
+    width: 40px;
+    height: 40px;
+    margin: 0 auto;
+}
+.logos{
+    height: 50px;
+    width: 100%;
+    color: grey;
+ text-align: center;
+
+}
+.logos img{
+    height: 50px;
+    width: 70px;
+    filter: grayscale(50%);
+}
+.logos img:hover{
+    filter: grayscale(0%);
+
+}
